@@ -1,0 +1,71 @@
+Guía básica de Git y GitHub
+
+1. Configuración inicial:
+   git config --global user.name "Tu Nombre"
+   git config --global user.email "tu@email.com"
+
+2. Iniciar un repositorio:
+   git init
+
+3. Trabajar con repositorios remotos:
+   git remote add origin <url-del-repositorio-remoto>
+
+4. Trabajar con cambios locales:
+   git status
+   git add <nombre-del-archivo>
+   git add .
+  Guía básica de Git y GitHub
+
+1. Configuración inicial:
+   git config --global user.name "Tu Nombre"
+   git config --global user.email "tu@email.com"
+
+2. Iniciar un repositorio:
+   git init
+
+3. Trabajar con repositorios remotos:
+   git remote add origin <url-del-repositorio-remoto>
+
+4. Trabajar con cambios locales:
+   git status
+   git add <nombre-del-archivo>
+   git add .
+   git commit -m "Mensaje del commit"
+
+5. Trabajar con ramas (branches):
+   git branch
+   git branch <nombre-de-la-rama>
+   git checkout <nombre-de-la-rama>
+   git merge <nombre-de-la-rama>
+
+6. Trabajar con repositorios remotos:
+   git pull origin <nombre-de-la-rama>
+   git push origin <nombre-de-la-rama>
+
+7. Historial y cambios:
+   git log
+   git diff <nombre-del-archivo>
+
+8. Cuando el repositorio ya existe:
+   git clone <url-del-repositorio>
+   git pull origin <nombre-de-la-rama>
+   git push origin <nombre-de-la-rama>
+
+5. Trabajar con ramas (branches):
+   git branch
+   git branch <nombre-de-la-rama>
+   git checkout <nombre-de-la-rama>
+   git merge <nombre-de-la-rama>
+
+6. Trabajar con repositorios remotos:
+   git pull origin <nombre-de-la-rama>
+   git push origin <nombre-de-la-rama>
+
+7. Historial y cambios:
+   git log
+   git diff <nombre-del-archivo>
+
+8. Cuando el repositorio ya existe:
+   git clone <url-del-repositorio>
+   git pull origin <nombre-de-la-rama>
+   git push origin <nombre-de-la-rama>
